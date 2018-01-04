@@ -1,0 +1,134 @@
+.reg_header{
+    $height:70px;
+    background:#fff;
+    h2{
+        height:$height;
+        border-bottom:1px solid #ccc;
+        .h_left{
+            display:block;
+            height:$height;
+            float:left;
+            width: 300px;
+            line-height:$height;
+            margin-left:50px;
+        }
+        div{
+            float:right;
+            font-size:14px;
+            color:#bbb;
+            line-height:$height;
+            padding-right:150px;
+            position:relative;
+
+            ul{
+                position:absolute;
+                right:3px;
+                top:0;
+                color:#000;
+                width:120px;
+                font-size:14px;
+                h3{
+                    height: 50px;
+                    text-align:center;
+                }
+                li{
+                    display:none;
+                    a{
+                      display:block;
+                      width: 120px;
+                      height: 30px;
+                      border:1px solid #bbb;
+                      text-align:center;
+                      line-height: 30px; 
+                      color:#000; 
+                      background:#fff;
+                    }
+                }                
+            }
+            ul:hover{
+                border:2px solid #999;
+                li{
+                    display:block;
+
+                }
+                li:hover{
+                    a{color:red;}
+                }
+            }
+        }
+
+    }
+}
+.reg_main{
+    $padding:15px;
+    // background:#5f5f5f;
+    $width:330px;
+    width:$width;
+    margin:0 auto;
+    h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 50px;
+        color: #333;
+        margin-top:30px;
+    }
+    input{
+        width: 315px;
+        height: 50px;
+        border:1px solid #bbb;
+        border-radius:3px;
+        margin-bottom:8px;
+        padding-left:$padding;
+
+    }
+    #yzcode{
+        width: 55%;
+        float:left;
+        margin-right:3%;
+    }
+    button{
+        width: 35%;
+        height: 50px;
+        float:right;
+        border-radius:3px;
+        background:#57565f;
+        color:#fff;
+    }
+    p{
+        font-size: 12px;
+        line-height: 35px;
+        color: #666;
+        text-indent: 1em;
+    }
+    input[type="submit"]{
+        background:#ff3c3c;
+        color:#fff;
+        font-size:16px;
+        border:none;
+        width: 100%;
+        margin-top:8px;
+    }
+}
+.reg_footer{
+    border-top:1px solid #bbb;
+    margin-top:40px;
+    font-size:12px;  
+    background:#fff; 
+    h5{
+        text-align:center;
+        a{
+            margin: 0 8px;
+            color: #333;
+            text-align:center;
+        }
+    }
+    h4{
+        color:#333;
+        text-align:center;
+
+    }
+}
+body{
+    background-color:#f5f5f5;
+}
