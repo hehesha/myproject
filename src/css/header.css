@@ -1,0 +1,46 @@
+.reg_header {
+  background: #fff; }
+  .reg_header h2 {
+    height: 70px;
+    border-bottom: 1px solid #ccc; }
+    .reg_header h2 .h_left {
+      display: block;
+      height: 70px;
+      float: left;
+      width: 300px;
+      line-height: 70px;
+      margin-left: 50px; }
+    .reg_header h2 div {
+      float: right;
+      font-size: 14px;
+      color: #bbb;
+      line-height: 70px;
+      padding-right: 150px;
+      position: relative; }
+      .reg_header h2 div ul {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        color: #000;
+        width: 120px;
+        font-size: 14px; }
+        .reg_header h2 div ul h3 {
+          height: 50px;
+          text-align: center; }
+        .reg_header h2 div ul li {
+          display: none; }
+          .reg_header h2 div ul li a {
+            display: block;
+            width: 120px;
+            height: 30px;
+            border: 1px solid #bbb;
+            text-align: center;
+            line-height: 30px;
+            color: #000;
+            background: #fff; }
+      .reg_header h2 div ul:hover {
+        border: 2px solid #999; }
+        .reg_header h2 div ul:hover li {
+          display: block; }
+        .reg_header h2 div ul:hover li:hover a {
+          color: red; }

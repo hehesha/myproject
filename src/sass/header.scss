@@ -1,0 +1,61 @@
+.reg_header{
+    $height:70px;
+    background:#fff;
+    h2{
+        height:$height;
+        border-bottom:1px solid #ccc;
+        .h_left{
+            display:block;
+            height:$height;
+            float:left;
+            width: 300px;
+            line-height:$height;
+            margin-left:50px;
+        }
+        div{
+            float:right;
+            font-size:14px;
+            color:#bbb;
+            line-height:$height;
+            padding-right:150px;
+            position:relative;
+
+            ul{
+                position:absolute;
+                right:3px;
+                top:0;
+                color:#000;
+                width:120px;
+                font-size:14px;
+                h3{
+                    height: 50px;
+                    text-align:center;
+                }
+                li{
+                    display:none;
+                    a{
+                      display:block;
+                      width: 120px;
+                      height: 30px;
+                      border:1px solid #bbb;
+                      text-align:center;
+                      line-height: 30px; 
+                      color:#000; 
+                      background:#fff;
+                    }
+                }                
+            }
+            ul:hover{
+                border:2px solid #999;
+                li{
+                    display:block;
+
+                }
+                li:hover{
+                    a{color:red;}
+                }
+            }
+        }
+
+    }
+}

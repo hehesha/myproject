@@ -388,8 +388,7 @@ main {
       width: 205px; }
 
 .global {
-  display: block;
-  height: 100px; }
+  display: block; }
   .global .winter {
     display: block;
     height: 100px;
@@ -519,3 +518,474 @@ main {
         color: #54a472; }
       .global .winter_right ul li:nth-child(6) .pro_color {
         background-color: #54a472; }
+
+.firstStyle {
+  height: 430px;
+  background: #fff; }
+  .firstStyle .left_con {
+    position: relative;
+    float: left;
+    width: 236px;
+    height: 410px;
+    padding-top: 20px;
+    text-align: center;
+    background: linear-gradient(30deg, #f9ab57 0%, #fab775 32%, #f78a4b 100%); }
+    .firstStyle .left_con h4 {
+      font-weight: 900; }
+      .firstStyle .left_con h4 a {
+        border-bottom: 1px solid #feeadd;
+        display: inline-block;
+        padding: 0 10px 10px 15px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 20px; }
+    .firstStyle .left_con .en_tit {
+      font-family: "Century Gothic";
+      color: #fff;
+      font-size: 14px;
+      line-height: 24px; }
+    .firstStyle .left_con .floor_slide {
+      position: relative;
+      margin-top: 35px; }
+    .firstStyle .left_con .comment {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 26px;
+      overflow: hidden;
+      padding: 8px 0;
+      background-color: rgba(255, 255, 255, 0.2); }
+      .firstStyle .left_con .comment .comment_left {
+        width: 42px;
+        height: 26px;
+        float: left;
+        color: #fff; }
+      .firstStyle .left_con .comment .comment_list {
+        width: 173px;
+        height: 26px;
+        overflow: hidden;
+        float: right;
+        padding: 0 10px;
+        text-align: left;
+        border-left: 1px solid #f7d9b7; }
+  .firstStyle .center_con {
+    float: left;
+    width: 744px;
+    background: #fff; }
+    .firstStyle .center_con .keyword {
+      height: 40px;
+      overflow: hidden;
+      border-right: 1px solid #f5f5f5;
+      margin-left: 4px;
+      color: #aaa; }
+      .firstStyle .center_con .keyword ul {
+        margin-left: -3px; }
+        .firstStyle .center_con .keyword ul li {
+          float: left; }
+          .firstStyle .center_con .keyword ul li a {
+            display: inline-block;
+            margin: 0 15px;
+            line-height: 40px;
+            color: #aaa;
+            font-size: 12px; }
+          .firstStyle .center_con .keyword ul li a:hover {
+            color: #f78b4b; }
+    .firstStyle .center_con .pro_wrap {
+      float: left;
+      position: relative;
+      width: 247px;
+      height: 194px;
+      overflow: hidden;
+      border-top: 1px solid #f5f5f5;
+      border-right: 1px solid #f5f5f5; }
+      .firstStyle .center_con .pro_wrap a {
+        display: block;
+        width: 247px;
+        height: 174px;
+        padding-top: 20px; }
+        .firstStyle .center_con .pro_wrap a .pro_tit {
+          position: relative;
+          z-index: 105;
+          height: 24px;
+          overflow: hidden;
+          max-width: 145px;
+          margin-left: 20px;
+          font-size: 14px;
+          line-height: 24px;
+          color: #333; }
+        .firstStyle .center_con .pro_wrap a .pro_sub_tit {
+          position: relative;
+          z-index: 105;
+          height: 24px;
+          overflow: hidden;
+          max-width: 115px;
+          margin-left: 20px;
+          font-size: 14px;
+          line-height: 24px; }
+        .firstStyle .center_con .pro_wrap a img {
+          position: absolute;
+          right: 10px;
+          bottom: 10px;
+          z-index: 101;
+          width: 130px;
+          height: 130px; }
+    .firstStyle .center_con .brand_wrap {
+      float: left;
+      position: relative;
+      width: 247px;
+      height: 194px;
+      border-top: 1px solid #f5f5f5;
+      border-right: 1px solid #f5f5f5; }
+      .firstStyle .center_con .brand_wrap .brand_cover {
+        position: relative;
+        width: 204px;
+        height: 162px;
+        overflow: hidden;
+        border: 21px solid #fff;
+        border-top: 16px solid #fff;
+        border-bottom: 16px solid #fff; }
+        .firstStyle .center_con .brand_wrap .brand_cover ul {
+          position: absolute;
+          top: -16px;
+          left: -21px;
+          width: 246px; }
+          .firstStyle .center_con .brand_wrap .brand_cover ul li {
+            float: left;
+            border-top: 1px solid #f5f5f5;
+            border-right: 1px solid #f5f5f5; }
+            .firstStyle .center_con .brand_wrap .brand_cover ul li a {
+              display: block;
+              width: 80px;
+              height: 32px;
+              padding: 16px 21px 16px 21px; }
+              .firstStyle .center_con .brand_wrap .brand_cover ul li a img {
+                width: 80px;
+                height: 32px; }
+  .firstStyle .hot_con {
+    float: right;
+    width: 248px;
+    background: #fff; }
+    .firstStyle .hot_con .hot_tit {
+      margin-top: 15px;
+      color: #666;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center; }
+    .firstStyle .hot_con .rank_list {
+      padding: 0 25px; }
+      .firstStyle .hot_con .rank_list ul {
+        margin: 0;
+        padding: 0; }
+        .firstStyle .hot_con .rank_list ul li {
+          margin-top: 15px;
+          height: 61px; }
+          .firstStyle .hot_con .rank_list ul li a {
+            position: relative;
+            display: block; }
+            .firstStyle .hot_con .rank_list ul li a img {
+              float: left;
+              width: 60px;
+              height: 60px; }
+            .firstStyle .hot_con .rank_list ul li a i {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 12px;
+              height: 12px;
+              background-color: #ff4040;
+              text-align: center;
+              line-height: 12px;
+              color: #fff;
+              font-style: normal;
+              font-family: "Tahoma";
+              font-size: 11px; }
+            .firstStyle .hot_con .rank_list ul li a .rank_detail {
+              float: right;
+              width: 125px; }
+              .firstStyle .hot_con .rank_list ul li a .rank_detail .pro_name {
+                height: 40px;
+                overflow: hidden;
+                line-height: 20px;
+                font-size: 12px;
+                color: #333; }
+              .firstStyle .hot_con .rank_list ul li a .rank_detail .pro_price {
+                margin-top: 5px;
+                color: #ff4040;
+                font-family: "Microsoft YaHei";
+                font-size: 12px; }
+                .firstStyle .hot_con .rank_list ul li a .rank_detail .pro_price em {
+                  font-style: normal;
+                  font-size: 12px; }
+
+.secondStyle {
+  width: 608px;
+  height: 430px;
+  background-color: #fff; }
+  .secondStyle .floor_tit {
+    background: linear-gradient(to right, #0bcd96 0%, #05d7a8 100%);
+    height: 25px;
+    padding: 12px 10px 12px 18px;
+    color: #fff;
+    line-height: 25px; }
+    .secondStyle .floor_tit h4 {
+      float: left;
+      font-size: 20px;
+      font-weight: normal; }
+      .secondStyle .floor_tit h4 a {
+        color: #fff; }
+        .secondStyle .floor_tit h4 a em {
+          margin-left: 10px;
+          font-family: "\5b8b\4f53";
+          font-weight: bold; }
+    .secondStyle .floor_tit .keywords {
+      float: right;
+      max-width: 430px;
+      height: 24px;
+      overflow: hidden;
+      text-align: right;
+      line-height: 24px; }
+      .secondStyle .floor_tit .keywords ul {
+        margin-right: -5px; }
+        .secondStyle .floor_tit .keywords ul li {
+          float: left;
+          font-size: 12px; }
+          .secondStyle .floor_tit .keywords ul li a {
+            margin: 0 8px;
+            color: #fff; }
+          .secondStyle .floor_tit .keywords ul li a:hover {
+            font-weight: bold; }
+  .secondStyle .left_slide {
+    position: relative;
+    float: left;
+    width: 236px;
+    height: 381px;
+    overflow: hidden; }
+  .secondStyle .pro_con {
+    float: left;
+    width: 186px;
+    height: 381px; }
+    .secondStyle .pro_con .pro_wrap {
+      position: relative;
+      width: 185px;
+      height: 190px;
+      border-bottom: 1px solid #f5f5f5;
+      border-left: 1px solid #f5f5f5; }
+      .secondStyle .pro_con .pro_wrap a {
+        display: block;
+        height: 170px;
+        padding-top: 20px; }
+        .secondStyle .pro_con .pro_wrap a .pro_tit {
+          height: 24px;
+          max-width: 100px;
+          margin-left: 20px;
+          font-size: 14px;
+          line-height: 24px;
+          color: #333;
+          overflow: hidden; }
+        .secondStyle .pro_con .pro_wrap a .pro_sub_tit {
+          height: 24px;
+          position: relative;
+          z-index: 105;
+          max-width: 100px;
+          margin-left: 20px;
+          font-size: 14px;
+          line-height: 24px;
+          overflow: hidden; }
+        .secondStyle .pro_con .pro_wrap a img {
+          position: absolute;
+          right: 10px;
+          bottom: 10px;
+          z-index: 101;
+          width: 105px;
+          height: 105px; }
+
+.knowYW h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal; }
+
+.knowYW .like_list {
+  position: relative;
+  padding-bottom: 110px;
+  overflow: hidden; }
+  .knowYW .like_list ul {
+    margin-right: -12px; }
+    .knowYW .like_list ul li {
+      width: 236px;
+      float: left;
+      margin: 12px 12px 0 0; }
+      .knowYW .like_list ul li a {
+        display: block;
+        width: 214px;
+        height: 293px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #333; }
+        .knowYW .like_list ul li a .flip_wrap {
+          margin: 0 auto; }
+          .knowYW .like_list ul li a .flip_wrap .pro_pic {
+            position: relative;
+            padding-top: 220px;
+            margin: 0 auto;
+            background-color: #f8f8f8;
+            text-align: center; }
+            .knowYW .like_list ul li a .flip_wrap .pro_pic img {
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 100%;
+              height: 220px; }
+          .knowYW .like_list ul li a .flip_wrap .pro_name {
+            position: relative;
+            height: 40px;
+            overflow: hidden;
+            margin-top: 5px;
+            line-height: 20px;
+            transition: all .5s ease;
+            font-size: 14px; }
+            .knowYW .like_list ul li a .flip_wrap .pro_name .pro_mark {
+              position: absolute;
+              left: 0;
+              top: 40px;
+              height: 40px;
+              width: 220px; }
+            .knowYW .like_list ul li a .flip_wrap .pro_name span {
+              line-height: 14px;
+              background-color: #ffefef;
+              color: #f66;
+              border: 1px solid #f3a3ad;
+              margin-right: 2px;
+              margin-left: 0px;
+              margin-top: 2px; }
+          .knowYW .like_list ul li a .flip_wrap .pro_price {
+            height: 30px;
+            margin-top: 5px;
+            line-height: 30px;
+            color: #f12c30;
+            font-weight: bold;
+            font-family: "Microsoft Yahei";
+            font-size: 14px;
+            float: left; }
+            .knowYW .like_list ul li a .flip_wrap .pro_price span {
+              line-height: 30px;
+              color: #f12c30;
+              font-weight: bold; }
+  .knowYW .like_list .goods_icon {
+    line-height: 30px;
+    color: #f12c30;
+    font-weight: bold;
+    font-family: "Microsoft Yahei";
+    font-size: 14px; }
+  .knowYW .like_list .pro_tag {
+    float: right;
+    margin-top: 5px; }
+    .knowYW .like_list .pro_tag .off_icon {
+      float: left;
+      margin-top: 6px;
+      background-color: #fff3fa;
+      color: #ff62a1;
+      border: 1px solid #ffcce0; }
+
+footer .footer_img {
+  padding: 30px 0;
+  border-bottom: 1px solid #ebebeb; }
+  footer .footer_img a {
+    float: left;
+    display: block;
+    width: 205px;
+    overflow: hidden;
+    margin: 0 51px; }
+    footer .footer_img a img {
+      float: left;
+      display: block;
+      width: 66px;
+      height: 66px;
+      margin-right: 15px; }
+    footer .footer_img a b {
+      display: block;
+      margin-top: 10px;
+      font-family: "Microsoft YaHei";
+      font-size: 16px;
+      color: #333; }
+    footer .footer_img a span {
+      font-family: "Microsoft YaHei";
+      font-size: 14px;
+      color: #999;
+      line-height: 26px; }
+
+footer .service_link {
+  padding: 20px 0 20px;
+  overflow: hidden; }
+  footer .service_link .help_list {
+    float: left;
+    padding-left: 15px; }
+    footer .service_link .help_list dl {
+      float: left;
+      display: block;
+      width: 195px; }
+      footer .service_link .help_list dl dt {
+        height: 32px;
+        padding: 0 8px;
+        font-size: 14px;
+        color: #666;
+        line-height: 32px;
+        overflow: hidden;
+        font-family: "Microsoft YaHei";
+        font-weight: bold; }
+      footer .service_link .help_list dl dd {
+        height: 24px;
+        padding: 0 8px;
+        line-height: 24px;
+        overflow: hidden;
+        white-space: normal;
+        font-size: 12px; }
+        footer .service_link .help_list dl dd a {
+          color: #666; }
+  footer .service_link .code_wrap {
+    width: 280px;
+    overflow: hidden;
+    float: left;
+    margin-right: -50px; }
+    footer .service_link .code_wrap dl {
+      float: left;
+      margin-right: 50px;
+      line-height: 32px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #666; }
+      footer .service_link .code_wrap dl dt img {
+        width: 90px;
+        height: 90px; }
+
+footer .copyright p {
+  color: #666;
+  text-align: center;
+  text-indent: 0;
+  line-height: 100%;
+  margin: 15px 0;
+  padding: 0;
+  font-size: 12px; }
+  footer .copyright p a {
+    color: #666;
+    margin: 0px 10px; }
+
+footer .copyright .pic_link {
+  display: block;
+  padding: 10px 0 20px;
+  text-align: center;
+  font-size: 0; }
+  footer .copyright .pic_link a {
+    display: inline-block;
+    margin: 0 4px; }
+
+.rushPurchase > a {
+  float: left;
+  width: 205px;
+  height: 98px;
+  padding-top: 42px;
+  overflow: hidden; }
