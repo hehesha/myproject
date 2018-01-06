@@ -1,0 +1,55 @@
+.logo {
+  width: 240px;
+  height: 150px;
+  float: left; }
+  .logo img {
+    width: 240px; }
+
+.header-right {
+  width: 974px;
+  float: left;
+  margin-top: 30px; }
+  .header-right .search {
+    width: 760px;
+    float: left; }
+    .header-right .search input {
+      width: 685px;
+      height: 36px;
+      border: 2px solid #FF4040;
+      float: left;
+      padding-left: 15px;
+      color: #A9A9A9; }
+    .header-right .search button {
+      width: 50px;
+      height: 40px;
+      background: #FF4040;
+      float: left; }
+      .header-right .search button i {
+        font-size: 20px;
+        color: white; }
+    .header-right .search p a {
+      display: inline-block;
+      margin-right: 15px;
+      line-height: 36px;
+      font-size: 14px;
+      color: #aaa; }
+    .header-right .search p a:hover {
+      color: #ff4040; }
+    .header-right .search ul li {
+      float: left;
+      margin-right: 30px; }
+      .header-right .search ul li a {
+        color: #333333;
+        line-height: 44px; }
+  .header-right .shoppingcar {
+    width: 130px;
+    height: 38px;
+    border: 1px solid #d7d7d7;
+    float: right;
+    margin-right: 14px; }
+    .header-right .shoppingcar span {
+      font-size: 16px;
+      line-height: 38px;
+      color: #666666; }
+      .header-right .shoppingcar span i {
+        padding: 0 10px; }

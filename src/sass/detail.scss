@@ -1,0 +1,168 @@
+@import url('header.scss');
+#d_main{
+    border-top:3px solid #ff4040;
+    position:relative;
+    .d_nav{
+        position:absolute;
+        width: 210px;
+        background-color:#ff4040;
+        top:-43px;
+        h2{
+            height: 40px;
+            color:#fff;
+            line-height: 40px;
+            text-align:center;
+            position:relative;
+            font-size:14px;
+            font-weight:900;
+            span{
+                display:inline-block;
+                width: 18px;
+                height: 18px;
+                font-size:14px;
+                transform:rotate(90deg);
+                position:absolute;
+                right:15px;
+                top:11px;
+            }
+        }
+
+        nav{
+            float:left;
+            width: 210px;
+            height: 400px;
+            background:#444444;
+            display:none;
+            z-index:9;
+            ul{
+                li{
+                    h3{
+                        height:33px;
+                        // overflow: hidden;
+                        padding: 0 10px 0 0;
+                        color: #fff;
+                        i{font-size:20px;color:#737373;margin:0 14px;width: 20px;font-weight:900;line-height: 33px}
+                        a{display: inline-block;font-size: 12px;color: #fff;line-height: 33px}
+                    }
+                }
+                li:hover{
+                    background:white;
+                    h3{color:black;}
+                    i{color:red;}
+                    a{color:black;}
+                }
+            }
+
+        }
+    }
+    .m_title{
+        padding: 12px 0;
+        height: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        zoom: 1;
+        font-size:12px;
+        a{
+            margin-right: 10px;
+            color: #555;
+            padding: 12px 0;
+            height: 15px;
+            line-height: 15px;
+        }
+        span{
+            color: #555;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    .detail_one{
+        .left_img{
+            width: 400px;
+            margin-right:25px;
+            .big_img{
+                width: 360px;
+                height: 360px;
+                padding:19px;
+                border:1px solid #ddd;
+                
+            }
+            .small_img{
+                ul{
+                    margin-top:20px;
+                    padding-left:20px;
+                    li{
+                        float: left;
+                        width: 50px;
+                        height: 50px;
+                        margin-right: 8px;
+                        cursor: pointer;
+                        padding: 3px;
+                        border: 2px solid #000;
+                    }
+                }
+            }
+        }
+        .main_con{
+            width: 570px;
+            margin-right: 24px;
+            .detail_inf{
+                h3{
+                    font-size: 16px;
+                    padding-top: 10px;
+                    margin-bottom: 10px;
+                    font-weight:900;
+                }
+                h4{
+                    padding: 10px 0 5px 0;
+                    background:#FDE5E0;
+                    border-top:1px solid #FFB399;
+                    border-bottom:1px solid #FFB399;
+                    height: 35px;
+                    line-height: 35px;
+                    span{
+                        color:#666;
+                        padding-left:10px;
+                        padding-right:50px;
+                        font-size:12px;
+                    }
+                    b{
+                        color: #e60012;
+                        font-size: 26px;
+                        font-family: 'Century Gothic';
+                        font-weight: bold;
+                    }
+                }
+                p{
+                    color:#666;
+                    font-size:12px;
+                    padding:10px 50px;
+                    background:#FFF4F2;
+                    b{
+                        color: #ff875a;
+                    }
+                    span{
+                        color:#aaa;
+                    }
+                }
+            }
+            .chux{
+                dl{
+                    margin-top:10px;
+                    dt{
+                        width: 60px;
+                        color: #666;
+                        padding-left: 10px;
+                        line-height: 26px;
+                        float:left;
+                    }
+                    dd{
+                        width: 486px;
+                        float:left;
+                    }
+                }
+            }
+        }
+    }
+}

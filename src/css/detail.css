@@ -1,0 +1,140 @@
+@import url("header.scss");
+#d_main {
+  border-top: 3px solid #ff4040;
+  position: relative; }
+  #d_main .d_nav {
+    position: absolute;
+    width: 210px;
+    background-color: #ff4040;
+    top: -43px; }
+    #d_main .d_nav h2 {
+      height: 40px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      position: relative;
+      font-size: 14px;
+      font-weight: 900; }
+      #d_main .d_nav h2 span {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        font-size: 14px;
+        transform: rotate(90deg);
+        position: absolute;
+        right: 15px;
+        top: 11px; }
+    #d_main .d_nav nav {
+      float: left;
+      width: 210px;
+      height: 400px;
+      background: #444444;
+      display: none;
+      z-index: 9; }
+      #d_main .d_nav nav ul li h3 {
+        height: 33px;
+        padding: 0 10px 0 0;
+        color: #fff; }
+        #d_main .d_nav nav ul li h3 i {
+          font-size: 20px;
+          color: #737373;
+          margin: 0 14px;
+          width: 20px;
+          font-weight: 900;
+          line-height: 33px; }
+        #d_main .d_nav nav ul li h3 a {
+          display: inline-block;
+          font-size: 12px;
+          color: #fff;
+          line-height: 33px; }
+      #d_main .d_nav nav ul li:hover {
+        background: white; }
+        #d_main .d_nav nav ul li:hover h3 {
+          color: black; }
+        #d_main .d_nav nav ul li:hover i {
+          color: red; }
+        #d_main .d_nav nav ul li:hover a {
+          color: black; }
+  #d_main .m_title {
+    padding: 12px 0;
+    height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    zoom: 1;
+    font-size: 12px; }
+    #d_main .m_title a {
+      margin-right: 10px;
+      color: #555;
+      padding: 12px 0;
+      height: 15px;
+      line-height: 15px; }
+    #d_main .m_title span {
+      color: #555;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  #d_main .detail_one .left_img {
+    width: 400px;
+    margin-right: 25px; }
+    #d_main .detail_one .left_img .big_img {
+      width: 360px;
+      height: 360px;
+      padding: 19px;
+      border: 1px solid #ddd; }
+    #d_main .detail_one .left_img .small_img ul {
+      margin-top: 20px;
+      padding-left: 20px; }
+      #d_main .detail_one .left_img .small_img ul li {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 8px;
+        cursor: pointer;
+        padding: 3px;
+        border: 2px solid #000; }
+  #d_main .detail_one .main_con {
+    width: 570px;
+    margin-right: 24px; }
+    #d_main .detail_one .main_con .detail_inf h3 {
+      font-size: 16px;
+      padding-top: 10px;
+      margin-bottom: 10px;
+      font-weight: 900; }
+    #d_main .detail_one .main_con .detail_inf h4 {
+      padding: 10px 0 5px 0;
+      background: #FDE5E0;
+      border-top: 1px solid #FFB399;
+      border-bottom: 1px solid #FFB399;
+      height: 35px;
+      line-height: 35px; }
+      #d_main .detail_one .main_con .detail_inf h4 span {
+        color: #666;
+        padding-left: 10px;
+        padding-right: 50px;
+        font-size: 12px; }
+      #d_main .detail_one .main_con .detail_inf h4 b {
+        color: #e60012;
+        font-size: 26px;
+        font-family: 'Century Gothic';
+        font-weight: bold; }
+    #d_main .detail_one .main_con .detail_inf p {
+      color: #666;
+      font-size: 12px;
+      padding: 10px 50px;
+      background: #FFF4F2; }
+      #d_main .detail_one .main_con .detail_inf p b {
+        color: #ff875a; }
+      #d_main .detail_one .main_con .detail_inf p span {
+        color: #aaa; }
+    #d_main .detail_one .main_con .chux dl {
+      margin-top: 10px; }
+      #d_main .detail_one .main_con .chux dl dt {
+        width: 60px;
+        color: #666;
+        padding-left: 10px;
+        line-height: 26px;
+        float: left; }
+      #d_main .detail_one .main_con .chux dl dd {
+        width: 486px;
+        float: left; }
