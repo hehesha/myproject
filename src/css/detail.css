@@ -82,6 +82,9 @@
       height: 360px;
       padding: 19px;
       border: 1px solid #ddd; }
+      #d_main .detail_one .left_img .big_img img {
+        width: 360px;
+        height: 360px; }
     #d_main .detail_one .left_img .small_img ul {
       margin-top: 20px;
       padding-left: 20px; }
@@ -138,3 +141,78 @@
       #d_main .detail_one .main_con .chux dl dd {
         width: 486px;
         float: left; }
+        #d_main .detail_one .main_con .chux dl dd ul li {
+          font-size: 12px;
+          height: 26px; }
+          #d_main .detail_one .main_con .chux dl dd ul li i {
+            display: inline-block;
+            float: left;
+            height: 14px;
+            line-height: 14px;
+            padding: 1px 5px;
+            color: #fff;
+            background-color: #ff875a;
+            border-radius: 1px;
+            margin-right: 10px; }
+          #d_main .detail_one .main_con .chux dl dd ul li s {
+            float: left;
+            max-width: 240px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          #d_main .detail_one .main_con .chux dl dd ul li span {
+            float: right;
+            color: #999; }
+    #d_main .detail_one .main_con .delivery {
+      height: 70px; }
+    #d_main .detail_one .main_con .addTobuy {
+      border-bottom: 1px dotted #aaa;
+      padding-bottom: 25px; }
+      #d_main .detail_one .main_con .addTobuy label {
+        padding-left: 70px;
+        width: 70px;
+        height: 48px;
+        display: inline-block;
+        position: relative; }
+        #d_main .detail_one .main_con .addTobuy label b:nth-child(1) {
+          display: block;
+          width: 23px;
+          height: 23px;
+          background: url(../images/icon.fw.png) no-repeat 0 0;
+          position: absolute;
+          right: -2px;
+          top: 0;
+          border: 1px solid #C8C7CC; }
+        #d_main .detail_one .main_con .addTobuy label b:nth-child(2) {
+          display: block;
+          width: 24px;
+          height: 24px;
+          background: url(../images/icon.fw.png) no-repeat 0 -34px;
+          position: absolute;
+          right: -1px;
+          bottom: -1px; }
+      #d_main .detail_one .main_con .addTobuy input {
+        width: 70px;
+        height: 48px;
+        border: 1px solid #C8C7CC;
+        font-size: 20px;
+        font-weight: 900;
+        text-align: center; }
+      #d_main .detail_one .main_con .addTobuy button {
+        width: 137px;
+        height: 50px;
+        background: #FF5C4D;
+        color: #fff;
+        margin-left: 5px;
+        border-radius: 3px; }
+    #d_main .detail_one .main_con .baoz {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #666; }
+      #d_main .detail_one .main_con .baoz dt {
+        float: left; }
+      #d_main .detail_one .main_con .baoz dd {
+        float: left;
+        margin-left: 30px; }
+        #d_main .detail_one .main_con .baoz dd span {
+          padding: 30px; }

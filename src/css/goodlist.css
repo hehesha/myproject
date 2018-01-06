@@ -33,60 +33,71 @@
           border: 1px solid #999;
           color: #333;
           margin-left: 8px;
-          font-size: 18px; }
+          font-size: 18px;
+          cursor: pointer; }
 
 .globalSelect {
   padding: 25px 0; }
-  .globalSelect .global_con .content_list dl {
-    width: 177px;
-    margin: 0px 1px 1px 0;
-    padding: 10px 33px;
-    background: #fff;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    float: left; }
-    .globalSelect .global_con .content_list dl dt a {
-      display: block;
-      width: 180px;
-      height: 180px; }
-      .globalSelect .global_con .content_list dl dt a img {
-        width: 100%;
-        height: 100%; }
-    .globalSelect .global_con .content_list dl .pro_name h3 {
-      font-size: 14px;
-      font-family: 'Microsoft YaHei'; }
-      .globalSelect .global_con .content_list dl .pro_name h3 a {
-        display: block;
-        overflow: hidden;
-        color: #333;
-        font-weight: 900; }
-    .globalSelect .global_con .content_list dl .pro_price {
-      height: 35px;
-      margin: 20px 0;
-      overflow: hidden;
-      font-family: 'Century Gothic';
-      line-height: 30px; }
-      .globalSelect .global_con .content_list dl .pro_price strong {
-        width: 92px;
-        overflow: hidden;
-        color: #ed1b2f;
-        font-size: 16px;
-        vertical-align: middle; }
-        .globalSelect .global_con .content_list dl .pro_price strong em {
-          padding-right: 2px;
-          font-size: 14px; }
-        .globalSelect .global_con .content_list dl .pro_price strong span {
-          color: #ed1b2f;
-          font-size: 16px; }
-      .globalSelect .global_con .content_list dl .pro_price a {
-        display: inline-block;
-        width: 88px;
-        height: 30px;
-        background-color: #ed1b2f;
-        border-radius: 15px;
-        color: #fff;
-        font: 14px/30px 'Microsoft YaHei';
-        text-align: center; }
+  .globalSelect .global_con {
+    position: relative;
+    overflow: hidden;
+    height: 630px;
+    width: 1224px; }
+    .globalSelect .global_con .content_list {
+      width: 2460px;
+      position: absolute; }
+      .globalSelect .global_con .content_list dl {
+        width: 177px;
+        margin: 0px 1px 1px 0;
+        padding: 10px 33px;
+        background: #fff;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        float: left;
+        cursor: pointer; }
+        .globalSelect .global_con .content_list dl dt a {
+          display: block;
+          width: 180px;
+          height: 180px; }
+          .globalSelect .global_con .content_list dl dt a img {
+            width: 100%;
+            height: 100%; }
+        .globalSelect .global_con .content_list dl .pro_name h3 {
+          font-size: 14px;
+          font-family: 'Microsoft YaHei'; }
+          .globalSelect .global_con .content_list dl .pro_name h3 a {
+            display: block;
+            overflow: hidden;
+            color: #333;
+            font-weight: 900;
+            height: 38px; }
+        .globalSelect .global_con .content_list dl .pro_price {
+          height: 35px;
+          margin: 20px 0;
+          overflow: hidden;
+          font-family: 'Century Gothic';
+          line-height: 30px; }
+          .globalSelect .global_con .content_list dl .pro_price strong {
+            width: 92px;
+            overflow: hidden;
+            color: #ed1b2f;
+            font-size: 16px;
+            vertical-align: middle; }
+            .globalSelect .global_con .content_list dl .pro_price strong em {
+              padding-right: 2px;
+              font-size: 14px; }
+            .globalSelect .global_con .content_list dl .pro_price strong span {
+              color: #ed1b2f;
+              font-size: 16px; }
+          .globalSelect .global_con .content_list dl .pro_price a {
+            display: inline-block;
+            width: 88px;
+            height: 30px;
+            background-color: #ed1b2f;
+            border-radius: 15px;
+            color: #fff;
+            font: 14px/30px 'Microsoft YaHei';
+            text-align: center; }
 
 .national_con .area {
   width: 236px;
