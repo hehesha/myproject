@@ -24,6 +24,7 @@
                 position:absolute;
                 right:15px;
                 top:11px;
+
             }
         }
 
@@ -104,6 +105,11 @@
                         cursor: pointer;
                         padding: 3px;
                         border: 2px solid #000;
+                        img{
+                            width: 52px;
+                            height: 52px;
+                            float:left;
+                        }
                     }
                 }
             }
@@ -221,10 +227,13 @@
                         display:block;
                         width: 24px;
                         height: 24px;
-                        background:url(../images/icon.fw.png) no-repeat 0 -34px;
+                        background-image:url(../images/icon.fw.png);
+                        background-repeat:no-repeat;
+                        background-position:0 -34px;
                         position:absolute;
                         right:-1px;
                         bottom:-1px;
+
                     }
                 }
                 input{
@@ -260,5 +269,38 @@
                 }
             }
         }
+    }
+}
+.popover{
+    h2{
+        text-align:center;
+        font-size:24px;
+        font-weight:900;
+        height: 50px;
+        line-height: 50px;
+    }
+    button{
+            display: inline-block;
+            width: 123px;
+            height: 41px;
+            margin: 0 5px;
+            line-height: 41px;
+            text-align: center;
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            margin-top:40px;
+    }
+    button:nth-child(3){
+      border: 1px solid #ff4141;
+        background: #ff5c4d;
+        color: #FFF;
+        margin-left:10px;
+
+    }
+    button:nth-child(2){
+        border: 1px solid #ddd;
+        background: #fcfcfc;
+        color: #666;
+        margin-left:100px;
     }
 }

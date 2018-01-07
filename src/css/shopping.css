@@ -1,0 +1,167 @@
+body {
+  background: #F8F8F8; }
+
+#car_header h1 {
+  width: 130px;
+  height: 38px;
+  float: left;
+  padding-top: 10px; }
+
+#car_header .search {
+  width: 260px;
+  height: 20px;
+  padding: 5px 10px;
+  margin: 15px 0;
+  border: 1px solid #eceaea;
+  border-radius: 5px;
+  background: #fcfbfb; }
+  #car_header .search input {
+    float: left;
+    width: 230px;
+    height: 20px;
+    border: none;
+    background: #fcfbfb;
+    color: #666;
+    outline: none; }
+  #car_header .search i {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    color: #aaa;
+    line-height: 20px; }
+
+.car_all {
+  margin: 10px auto;
+  padding: 0 30px;
+  height: 40px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  background: #fff;
+  color: #666;
+  width: 1120px; }
+  .car_all label {
+    width: 125px;
+    cursor: pointer;
+    display: inline-block;
+    float: left; }
+    .car_all label input {
+      display: inline-block;
+      float: left;
+      line-height: 40px;
+      margin-top: 15px; }
+    .car_all label span {
+      float: left;
+      width: 50px; }
+  .car_all span {
+    width: 205px;
+    text-align: right;
+    display: inline-block;
+    line-height: 40px;
+    float: left; }
+  .car_all .tit {
+    width: 260px; }
+  .car_all .price {
+    width: 205px;
+    text-align: right; }
+  .car_all .num {
+    width: 320px;
+    text-align: center; }
+  .car_all .total {
+    width: 80px;
+    padding-right: 50px;
+    text-align: right; }
+  .car_all .act {
+    width: 80px;
+    text-align: center; }
+
+.car_list {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  width: 1180px;
+  margin: 20px auto 0; }
+  .car_list .car_tit {
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 15px 30px;
+    height: 25px;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 25px; }
+  .car_list .goodlist ul li {
+    border-bottom: 1px dotted #bbb; }
+    .car_list .goodlist ul li .checkbox {
+      float: left;
+      margin-top: 30px;
+      display: block;
+      margin-left: 40px; }
+    .car_list .goodlist ul li div {
+      float: left; }
+    .car_list .goodlist ul li .img {
+      width: 75px;
+      height: 75px;
+      padding: 10px;
+      margin: 10px 20px; }
+      .car_list .goodlist ul li .img img {
+        width: 75px;
+        height: 75px; }
+    .car_list .goodlist ul li .details {
+      width: 260px;
+      height: 40px;
+      padding-top: 30px;
+      padding-left: 20px;
+      line-height: 20px;
+      overflow: hidden; }
+    .car_list .goodlist ul li .price {
+      display: block;
+      width: 200px;
+      height: 24px;
+      float: left;
+      margin-top: 30px;
+      color: red; }
+    .car_list .goodlist ul li .number {
+      padding: 3px 0;
+      width: 80px;
+      height: 18px;
+      line-height: 18px;
+      border: 1px solid #dfdfdf;
+      border-radius: 2px;
+      background-color: #fff;
+      margin-top: 40px; }
+      .car_list .goodlist ul li .number .plus, .car_list .goodlist ul li .number .add {
+        float: left;
+        width: 20px;
+        text-align: center;
+        color: #666;
+        font-family: 'Tahoma';
+        font-size: 14px;
+        overflow: hidden;
+        margin-top: 0px;
+        background: #fff; }
+      .car_list .goodlist ul li .number .num {
+        float: left;
+        width: 38px;
+        height: 18px;
+        border: none;
+        border-left: 1px solid #dfdfdf;
+        border-right: 1px solid #dfdfdf;
+        text-align: center;
+        line-height: 18px;
+        outline: none;
+        margin-top: 0px; }
+    .car_list .goodlist ul li .delete {
+      display: block;
+      width: 40px;
+      height: 40px;
+      font-size: 30px;
+      float: right;
+      margin-top: 30px;
+      margin-right: 20px;
+      cursor: pointer; }
+    .car_list .goodlist ul li .sum {
+      width: 50px;
+      float: left;
+      display: block;
+      margin-left: 160px;
+      margin-top: 45px;
+      font-weight: 900; }

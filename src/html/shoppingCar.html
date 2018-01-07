@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>我的购物车</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shopping.css" />
+</head>
+<body>
+    <header id="car_header" class="clearfix container">
+        <h1>
+            <a href="../index.html">
+                <img src="../images/buy_logo.png" />
+            </a>
+        </h1>
+        <div class="search fr">
+            <input type="text" placeholder="请输入关键字"/>
+            <i class="icon-fangdajing iconfont"></i>
+        </div>
+    </header>
+    <main>
+        <div class="car_all clearfix container">
+            <label>            
+                <input type="checkbox" /> <span>全选</span>
+            </label>
+            <span class="tit">商品信息</span>
+            <span class="price">单价（元）</span>
+            <span class="num">数量</span>
+            <span class="total">小计（元）</span>
+            <span class="act">操作</span>
+        </div>
+        <div class="car_list clearfix">
+            <div class="car_tit clearfix">
+                <input type="checkbox" />
+                <span>自营</span>
+            </div>
+            <div class="goodlist">
+                <ul class="clearfix goodul">
+                    <li>
+                        <input type="checkbox" class="checkbox"/>
+                        <div class="img"></div>
+                        <div class="details">
+                                新西兰 进口牛奶 纽仕兰牧场（Theland）部分脱脂牛奶 250ml*24家庭装 
+                        </div>
+                        <p class="price">
+                            79.00
+                        </p>
+                        <div class="number">
+                            <input type="button" value="-" class="plus"/>
+                            <input type="text" class="num" value="1"/>
+                            <input type="button" value="+" class="add"/>
+                        </div>
+                        <span class="sum">158.00</span>
+                        <span class="delete">&times;</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="pay_total">
+                <div class="pay_tools_l clearfix"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../lib/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="../js/shopping.js" type="text/javascript"></script>
+</html>

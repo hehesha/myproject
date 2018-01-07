@@ -40,6 +40,7 @@
     $big_img=$('.big_img');
     $d_price=$('.d_price');
     $d_tit=$('.d_tit');
+    var d_data;
 
     //指定Resolved状态和Rejected状态的回调函数
     detaildata.then(function(res){
@@ -55,5 +56,77 @@
     },function(err){
          console.log(err);
     });
+
+    // 购物车数量
+    var $add=$('.b_add');
+    var $plus=$('.b_plus');
+    var $number=$('.b_number');
+    $('.addTobuy').on('click','b',function(){
+        console.log(this.className);
+        if(this.className=='b_add'){
+            if($number.val()==1){
+                $plus.css('backgroundPosition','0 -77px');
+            }
+            $number.val($number.val()*1+1);
+        }
+        if(this.className=='b_plus'){
+            if($number.val()==1){
+                return
+            }else if($number.val()==2){
+                $plus.css('backgroundPosition','0 -34px');
+            }
+            $number.val($number.val()*1-1);
+
+        }
+    });
+
+    // 加入购物车
+    $('.a_buy').on('click',function(){
+        new Popover({
+            title:'',overlay:0.3,
+            content:`<h2>已成功加入购物车</h2><button class="continue">继续购物</button><button class="goto">查看购物车</button>`,
+            width:500
+        });
+        // 将购买信息写入数据库
+            console.log('d_data',d_data);
+            $.ajax({
+                url:'../api/carlist.php',
+                data:{
+                    goodsid:d_data[0].id,
+                    price:d_data[0].price,
+                    number:$number.val(),
+                    imgurl:d_data[0].imgurl,
+                    details:d_data[0].details
+                },
+                success:function(data){
+                    console.log(data);
+                }
+            });
+        $('.continue').on('click',function(){
+            $('.popover').css('display','none');
+            $('.overlay').css('display','none');
+        });
+        $('.goto').on('click',function(){
+
+            // 跳转到购物车
+            location.href="../html/shoppingCar.html";
+
+
+        });
+        
+    });
+
+
+    // 放大镜
+    
+            $('.big_img').gdsZoom;
+
+            $('.small_img img').on('mouseover',function(){
+                $('.big_img img').attr({
+                    'src':this.src,
+                    'data-big':$(this).attr('data-big') || this.src
+                });
+            });
+        
 
 })(jQuery)
