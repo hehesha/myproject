@@ -33,12 +33,13 @@
 
                 url:"../api/register.php",
                 data:{
-                    user:"'"+val+"'",
+                    user:val
                 },
                 success:function(data){
                     if(JSON.parse(data)==null){
                        $user.next().next().fadeOut();
                        userv=1;
+                       console.log(data);
                     }
                 }
             });
@@ -85,7 +86,22 @@
 
     $submit.on('click',function(){
         if(userv&&phonev&&psd1&&psd2){
-            console.log(999);
+            // 写入数据库
+            $.ajax({
+                url:"../api/register.php",
+                data:{
+                    user:user.value,
+                    psd:scode.value,
+                    phone:phone.value
+                },
+                success:function(data){
+                    console.log(data);
+                    if(data=='ok'){
+                        alert('success');
+                        location.href='../html/login.html';
+                    }
+                }
+            });
         }
     });
         

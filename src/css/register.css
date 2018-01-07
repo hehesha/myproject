@@ -79,7 +79,7 @@
     line-height: 35px;
     color: #666;
     text-indent: 1em; }
-  .reg_main input[type="submit"] {
+  .reg_main input[type="button"] {
     background: #ff3c3c;
     color: #fff;
     font-size: 16px;
