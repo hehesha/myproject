@@ -10,7 +10,7 @@
 			position:'right',//bottom,top,left,
 
 			// 小图与大图的间距
-			gap:15
+			gap:25
 		}
 
 		// 这里的this指向实例
@@ -32,7 +32,7 @@
 			var left,top;
 			if(opt.position === 'right'){
 				top = $small.offset().top;
-				left = $small.offset().left + $smallImg.outerWidth() + opt.gap;
+				left = $small.offset().left + $smallImg.outerWidth() + opt.gap+100;
 			}else if(opt.position === 'left'){
 				top = $small.offset().top;
 				left = $small.offset().left - opt.width - opt.gap;

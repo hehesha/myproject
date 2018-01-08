@@ -47,7 +47,7 @@
         console.log(res);
         d_data=JSON.parse(res);
         // 商品插入页面
-        $big_img.html(`<img src=${d_data[0].imgurl}>`);
+        $big_img.html(`<img src=${d_data[0].imgurl} data-big=${d_data[0].imgurl}>`);
         for(var i=0;i<$d_tit.length;i++){
             $d_tit.eq(i).html(d_data[0].details);
         }
@@ -118,15 +118,6 @@
 
 
     // 放大镜
-    
-            $('.big_img').gdsZoom;
-
-            $('.small_img img').on('mouseover',function(){
-                $('.big_img img').attr({
-                    'src':this.src,
-                    'data-big':$(this).attr('data-big') || this.src
-                });
-            });
-        
+     
 
 })(jQuery)
